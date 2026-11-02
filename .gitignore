@@ -1,0 +1,55 @@
+# ============================================================
+# PERSONAL DATA - never commit real CVs or generated files.
+# The app stores user data in ~/.cv_updater (outside the repo), but a
+# custom CV_UPDATER_HOME or manual test files could end up in the repo.
+# ============================================================
+cv_data*.json
+!examples/cv_data.json
+preferences.json
+backups/
+outputs/
+output/
+.cv_updater/
+
+# Real CVs placed in the repo root (fake samples go in examples/)
+/*.pdf
+/*.docx
+
+# ============================================================
+# SECRETS
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ============================================================
+# PYTHON
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# ============================================================
+# EDITORS / OS
+# ============================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+.ipynb_checkpoints/
+*.log
