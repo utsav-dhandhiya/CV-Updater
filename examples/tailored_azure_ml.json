@@ -1,0 +1,5 @@
+{
+  "title": "AI / Machine Learning Engineer — LLMs, RAG & Azure",
+  "summary": "AI/ML Engineer with 3+ years in mission-critical industrial systems, building production-grade LLM applications: stateful LangGraph agents, Retrieval Augmented Generation (RAG) pipelines on Pinecone, LLM deployment on Microsoft Azure AI Foundry, and LLM observability and debugging with LangSmith. Built an MCP server that cuts CV tailoring from ~45 minutes to under 2. AWS Certified AI Practitioner. Brings reliability-engineering and fault-diagnosis discipline from high-uptime power plants to troubleshooting model performance, data quality, and system integration in LLM systems.",
+  "skills": ["Large Language Models (LLMs)", "Retrieval Augmented Generation (RAG)", "Microsoft Azure (Azure AI Foundry)", "Python", "LangChain", "LangGraph", "LangSmith", "OpenAI API", "Pinecone - Vector Database", "Hugging Face Transformers", "Prompt Engineering", "Multi-Agent Systems", "FastAPI", "Docker", "AWS (Certified)", "MCP"]
+}

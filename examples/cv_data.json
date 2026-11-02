@@ -1,0 +1,69 @@
+{
+  "name": "Utsav Dhandhiya",
+  "title": "AI Engineer",
+  "contact": {
+    "phone": "93137 80588",
+    "email": "utsav.dhandhia@gmail.com",
+    "linkedin": "linkedin.com/in/utsav-dhandhiya-421866240",
+    "location": "Rajkot, Gujarat"
+  },
+  "summary": "AI Engineer with 3+ years in mission-critical industrial systems, building production-grade GenAI applications: stateful LangGraph agents, RAG pipelines on Pinecone, LLM observability with LangSmith, and an MCP server that cuts CV tailoring from ~45 minutes to under 2. AWS Certified AI Practitioner. Bringing reliability-engineering discipline from high-uptime power plants to LLM systems that are traceable, fault-tolerant, and built to ship.",
+  "skills": ["Python", "FastAPI", "LangChain", "LangGraph", "LangSmith", "OpenAI API", "Pinecone - Vector Database", "RAG Pipeline Design", "Prompt Engineering", "Multi-Agent Systems", "AWS (Certified)", "Docker", "Hugging Face Transformers", "MCP"],
+  "experience": [
+    {
+      "company": "Umiya Research Center",
+      "role": "AI Engineer Intern",
+      "location": "Remote",
+      "start": "Jun 2025",
+      "end": "Dec 2025",
+      "bullets": [
+        "Architected a production-ready, stateful LLM chatbot using LangChain and LangGraph with tool-augmented reasoning, enabling complex multi-step query resolution.",
+        "Engineered real-time token streaming and persistent session memory, delivering a seamless conversational experience across multi-session interactions.",
+        "Designed and deployed an end-to-end RAG pipeline with document ingestion, chunking, and semantic retrieval over Pinecone vector database, improving response accuracy on domain-specific queries.",
+        "Optimized prompt engineering strategies for OpenAI LLM APIs, reducing hallucination and improving contextual relevance across diverse user inputs.",
+        "Instrumented full LLM observability and trace-based debugging via LangSmith, enabling rapid iteration and production-grade reliability monitoring."
+      ]
+    },
+    {
+      "company": "Adani Power Limited",
+      "role": "Deputy Manager",
+      "location": "Mundra, Gujarat",
+      "start": "Aug 2022",
+      "end": "Present",
+      "bullets": [
+        "Oversaw reliability and performance of 9 large-scale power generation units (5×660 MW, 4×330 MW) in a high-uptime, mission-critical industrial environment - building strong systems-engineering and fault-diagnosis discipline.",
+        "Engineered and optimized control logic across Distributed Control Systems (DCS) platforms including Invensys Foxboro and GE OC4000, demonstrating deep understanding of complex, stateful system architectures.",
+        "Applied structured analytical methodologies to diagnose system inefficiencies and drive operational improvements - directly transferable to debugging and optimizing AI/ML pipelines."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "YouTube Chat Assistant",
+      "tech": "Personal Project",
+      "bullets": [
+        "Architected an end-to-end conversational RAG pipeline that ingests any YouTube video via URL - automating transcript extraction, text chunking, embedding, and semantic indexing into Pinecone vector database.",
+        "Designed a stateful multi-turn agent workflow using LangGraph, enabling context-aware follow-up queries with persistent session memory across the full conversation.",
+        "Integrated an LLM deployed on Azure AI Foundry, handling semantic retrieval and answer synthesis over video-specific knowledge - keeping responses grounded and hallucination-resistant.",
+        "Instrumented end-to-end LLM observability and trace monitoring via LangSmith, enabling pipeline debugging and performance tracking at each reasoning step."
+      ]
+    },
+    {
+      "name": "CV-Tailor (MCP Server)",
+      "tech": "Python, MCP, LLMs, python-docx",
+      "bullets": [
+        "Built a Python MCP server that turns an existing CV and a job description into a tailored .docx CV, reducing tailoring time from ~45 min to under 2 min with near-complete JD keyword coverage across 5 test runs.",
+        "Designed the pipeline (PDF/DOCX extraction, LLM structuring, JD matching, rendering) with anti-hallucination guardrails that preserve exact metrics and never fabricate details."
+      ]
+    }
+  ],
+  "education": [
+    {"institution": "Pandit Deendayal Energy University", "degree": "B.Tech - Electrical Engineering, CGPA: 8.19", "year": "2022", "location": "Gandhinagar, Gujarat"}
+  ],
+  "certifications": [
+    {"name": "AWS Certified AI Practitioner", "issuer": "Amazon Web Services", "date": "Jan 2025", "credential_id": "32d1cae1-1f16-4560-ad0a-5628e04a9f24"}
+  ],
+  "achievements": [
+    {"title": "Spot Recognition Award — Adani Power Limited", "description": "Awarded for innovative thinking and problem-solving in operational system optimization"}
+  ]
+}
