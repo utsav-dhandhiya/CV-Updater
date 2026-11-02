@@ -1,0 +1,3 @@
+# Installs the project and its dependencies exactly as declared in pyproject.toml
+# (mcp>=2.0, python-docx, pdfplumber, pymupdf). Keep dependencies in ONE place.
+-e .
